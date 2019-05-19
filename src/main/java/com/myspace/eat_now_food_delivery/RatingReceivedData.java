@@ -6,12 +6,33 @@ package com.myspace.eat_now_food_delivery;
 
 public class RatingReceivedData implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public RatingReceivedData() {
-    }
+	private int totalRatingReceivedCount;
+	private float ratingReceived;
 
+	public RatingReceivedData() {
+	}
 
+	public int getTotalRatingReceivedCount() {
+		return this.totalRatingReceivedCount;
+	}
 
+	public void setTotalRatingReceivedCount(int totalRatingReceivedCount) {
+		this.totalRatingReceivedCount = totalRatingReceivedCount;
+	}
+
+	public float getRatingReceived() {
+		return this.ratingReceived;
+	}
+
+	public void setRatingReceived(float ratingReceived) {
+		this.ratingReceived = ratingReceived;
+	}
+
+	public RatingReceivedData(int totalRatingReceivedCount, float ratingReceived) {
+		this.totalRatingReceivedCount = totalRatingReceivedCount;
+		this.ratingReceived = ratingReceived;
+	}
 
 }
