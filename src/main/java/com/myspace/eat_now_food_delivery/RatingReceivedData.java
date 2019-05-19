@@ -11,6 +11,8 @@ public class RatingReceivedData implements java.io.Serializable {
 	private int totalRatingReceivedCount;
 	private float ratingReceived;
 
+	private java.lang.String restaurantEmail;
+
 	public RatingReceivedData() {
 	}
 
@@ -30,9 +32,19 @@ public class RatingReceivedData implements java.io.Serializable {
 		this.ratingReceived = ratingReceived;
 	}
 
-	public RatingReceivedData(int totalRatingReceivedCount, float ratingReceived) {
+	public java.lang.String getRestaurantEmail() {
+		return this.restaurantEmail;
+	}
+
+	public void setRestaurantEmail(java.lang.String restaurantEmail) {
+		this.restaurantEmail = restaurantEmail;
+	}
+
+	public RatingReceivedData(int totalRatingReceivedCount,
+			float ratingReceived, java.lang.String restaurantEmail) {
 		this.totalRatingReceivedCount = totalRatingReceivedCount;
 		this.ratingReceived = ratingReceived;
+		this.restaurantEmail = restaurantEmail;
 	}
 
 }
