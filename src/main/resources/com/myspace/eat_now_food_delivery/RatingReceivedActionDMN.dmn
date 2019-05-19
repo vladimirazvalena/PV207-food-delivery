@@ -12,7 +12,7 @@
     <dmn:decisionTable id="_7192DFD7-4C2F-4A6B-B14A-5625F2E73243" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
       <dmn:input id="_1F2FFF3D-0046-4E29-BFDE-3B9277A3EE7B">
         <dmn:inputExpression id="_9F8BC474-2C03-4C5B-AE65-34DC85A30631" typeRef="number">
-          <dmn:text>RatingReceivedFormData.totalRatingCount</dmn:text>
+          <dmn:text>RatingReceivedFormData. totalRatingReceivedCount</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_53AEDA6F-BCFF-410E-BED4-CD6BA042A152" typeRef="boolean"/>
