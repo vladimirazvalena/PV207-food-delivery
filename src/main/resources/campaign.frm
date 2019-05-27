@@ -1,0 +1,1 @@
+{"id":"5c79e40a-41cb-44fd-87c2-45ad30934294","name":"campaign","model":{"source":"INTERNAL","className":"com.myspace.eat_now_food_delivery.campaign","name":"campaign","properties":[],"formModelType":"org.kie.workbench.common.forms.data.modeller.model.DataObjectFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
